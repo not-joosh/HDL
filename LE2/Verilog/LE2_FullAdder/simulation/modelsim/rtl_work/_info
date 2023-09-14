@@ -1,0 +1,86 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE2/Quartus/LE2_FullAdder/simulation/modelsim
+vFullAdder
+Z1 !s110 1694249572
+!i10b 1
+!s100 65UQ5P=XQINNRAdNW^_P]3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IWoI[jQY36ok`5OjCK:STa1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1694249285
+Z5 8C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE2/Quartus/LE2_FullAdder/FullAdder.v
+Z6 FC:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE2/Quartus/LE2_FullAdder/FullAdder.v
+!i122 0
+L0 18 8
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1694249572.000000
+Z9 !s107 C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE2/Quartus/LE2_FullAdder/FullAdder.v|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE2/Quartus/LE2_FullAdder|C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE2/Quartus/LE2_FullAdder/FullAdder.v|
+!i113 1
+Z11 o-vlog01compat -work work
+Z12 !s92 -vlog01compat -work work {+incdir+C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE2/Quartus/LE2_FullAdder}
+Z13 tCvgOpt 0
+n@full@adder
+vHalfAdder
+R1
+!i10b 1
+!s100 0L5ZEOaQb;MJ6D@XaP0GT0
+R2
+I]:KYLf4`coXkElHQHFocB1
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 12 6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+n@half@adder
+vtb_FullAdder
+R1
+!i10b 1
+!s100 obSSIiCB:]eRLHhQPn1XP0
+R2
+IfmJ[gIY:@lnIWXdNj5XRg3
+R3
+R0
+w1694248989
+8C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE2/Quartus/LE2_FullAdder/tb_FullAdder.v
+FC:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE2/Quartus/LE2_FullAdder/tb_FullAdder.v
+!i122 1
+L0 10 23
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE2/Quartus/LE2_FullAdder/tb_FullAdder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE2/Quartus/LE2_FullAdder|C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE2/Quartus/LE2_FullAdder/tb_FullAdder.v|
+!i113 1
+R11
+R12
+R13
+ntb_@full@adder
