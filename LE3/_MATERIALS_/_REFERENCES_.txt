@@ -1,0 +1,10 @@
+------------------------------------------------
+DECODER2x4:
+	Schematic:
+		https://www.tutorialspoint.com/digital_circuits/images/2_4_decoder_circuit_diagram.jpg
+	Documentation:
+		https://www.tutorialspoint.com/digital_circuits/digital_circuits_decoders.htm
+------------------------------------------------
+DECODER3x8:
+
+------------------------------------------------
