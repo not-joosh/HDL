@@ -1,0 +1,81 @@
+# Reading pref.tcl
+# do Decoder3x8_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/joshr/OneDrive/Desktop/University\ of\ San\ Carlos/USC\ Year\ 3\ -\ Sem\ 1/HDL/Laboratories/LE3/Verilog/2to4Decoder {C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE3/Verilog/2to4Decoder/Decoder2x4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:58 on Sep 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE3/Verilog/2to4Decoder" C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE3/Verilog/2to4Decoder/Decoder2x4.v 
+# -- Compiling module Decoder2x4
+# 
+# Top level modules:
+# 	Decoder2x4
+# End time: 12:08:58 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/joshr/OneDrive/Desktop/University\ of\ San\ Carlos/USC\ Year\ 3\ -\ Sem\ 1/HDL/Laboratories/LE3/3to8Decoder {C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE3/3to8Decoder/Decoder3x8.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:58 on Sep 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE3/3to8Decoder" C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE3/3to8Decoder/Decoder3x8.v 
+# -- Compiling module Decoder3x8
+# 
+# Top level modules:
+# 	Decoder3x8
+# End time: 12:08:58 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/joshr/OneDrive/Desktop/University\ of\ San\ Carlos/USC\ Year\ 3\ -\ Sem\ 1/HDL/Laboratories/LE3/3to8Decoder {C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE3/3to8Decoder/tb_Decoder3x8.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:58 on Sep 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE3/3to8Decoder" C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE3/3to8Decoder/tb_Decoder3x8.v 
+# -- Compiling module tb_Decoder3x8
+# 
+# Top level modules:
+# 	tb_Decoder3x8
+# End time: 12:08:58 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  tb_Decoder3x8
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" tb_Decoder3x8 
+# Start time: 12:08:59 on Sep 23,2023
+# Loading work.tb_Decoder3x8
+# Loading work.Decoder3x8
+# Loading work.Decoder2x4
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Decoder 3x8 Simulation:
+# Enable STATUS [OFF].
+# TIME =                    0 ns 	 E = 0 	 A = 000 	 D = 00000000
+# TIME =                   10 ns 	 E = 0 	 A = 001 	 D = 00000000
+# TIME =                   20 ns 	 E = 0 	 A = 010 	 D = 00000000
+# TIME =                   30 ns 	 E = 0 	 A = 011 	 D = 00000000
+# TIME =                   40 ns 	 E = 0 	 A = 100 	 D = 00000000
+# TIME =                   50 ns 	 E = 0 	 A = 101 	 D = 00000000
+# TIME =                   60 ns 	 E = 0 	 A = 110 	 D = 00000000
+# TIME =                   70 ns 	 E = 0 	 A = 111 	 D = 00000000
+# Enable STATUS [ON].
+# TIME =                   80 ns 	 E = 1 	 A = 000 	 D = 00000001
+# TIME =                   90 ns 	 E = 1 	 A = 001 	 D = 00000010
+# TIME =                  100 ns 	 E = 1 	 A = 010 	 D = 00000100
+# TIME =                  110 ns 	 E = 1 	 A = 011 	 D = 00001000
+# TIME =                  120 ns 	 E = 1 	 A = 100 	 D = 00010000
+# TIME =                  130 ns 	 E = 1 	 A = 101 	 D = 00100000
+# TIME =                  140 ns 	 E = 1 	 A = 110 	 D = 01000000
+# TIME =                  150 ns 	 E = 1 	 A = 111 	 D = 10000000
+# ** Note: $stop    : C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE3/3to8Decoder/tb_Decoder3x8.v(38)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_Decoder3x8
+# Break in Module tb_Decoder3x8 at C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE3/3to8Decoder/tb_Decoder3x8.v line 38
+# End time: 12:34:10 on Sep 23,2023, Elapsed time: 0:25:11
+# Errors: 0, Warnings: 0

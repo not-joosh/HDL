@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Sat Sep 23 12:03:40 2023
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : Decoder3x8
+Top-level Entity Name : Decoder3x8
+Family : MAX 10
+Total logic elements : 8
+    Total combinational functions : 8
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 12
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0
