@@ -1,0 +1,6 @@
+|LightControl
+x1 => A1.IN0
+x2 => A1.IN1
+f <= A1.DB_MAX_OUTPUT_PORT_TYPE
+
+
