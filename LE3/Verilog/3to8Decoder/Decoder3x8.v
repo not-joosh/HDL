@@ -10,7 +10,6 @@ module Decoder3x8(
 	input 		E,
 	output 		[7:0] D
 );
-	wire [3:0] D1, D2; 
    Decoder2x4 Dc2x4_1(
        .A(A[1:0]), 
        .E(E & A[2]), 
