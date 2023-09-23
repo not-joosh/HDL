@@ -31,7 +31,6 @@ endmodule
 
 
 
-
 // Trial 1
 //module Decoder3x8(
 //	input 		[2:0] A,
