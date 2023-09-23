@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE3/Verilog/2to4Decoder/simulation/modelsim
+vDecoder2x4
+Z1 !s110 1695444279
+!i10b 1
+!s100 372Pk_a03Ca`A0Ha;b<n72
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IQ^3gT``l18lH1QWUf?2bh0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1695439979
+8C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE3/Verilog/2to4Decoder/Decoder2x4.v
+FC:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE3/Verilog/2to4Decoder/Decoder2x4.v
+!i122 0
+L0 9 14
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1695444278.000000
+!s107 C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE3/Verilog/2to4Decoder/Decoder2x4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE3/Verilog/2to4Decoder|C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE3/Verilog/2to4Decoder/Decoder2x4.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE3/Verilog/2to4Decoder}
+Z7 tCvgOpt 0
+n@decoder2x4
+vtb_Decoder2x4
+R1
+!i10b 1
+!s100 Gd6oKP1m?o^VEF2Ko7?Al2
+R2
+I5^GE]D^^a>i`5nL3_BGjb2
+R3
+R0
+w1695444150
+8C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE3/Verilog/2to4Decoder/tb_Decoder2x4.v
+FC:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE3/Verilog/2to4Decoder/tb_Decoder2x4.v
+!i122 1
+L0 9 23
+R4
+r1
+!s85 0
+31
+!s108 1695444279.000000
+!s107 C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE3/Verilog/2to4Decoder/tb_Decoder2x4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE3/Verilog/2to4Decoder|C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE3/Verilog/2to4Decoder/tb_Decoder2x4.v|
+!i113 1
+R5
+R6
+R7
+ntb_@decoder2x4
