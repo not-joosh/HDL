@@ -1,0 +1,67 @@
+# Reading pref.tcl
+# do FourBitComparator_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/joshr/OneDrive/Desktop/University\ of\ San\ Carlos/USC\ Year\ 3\ -\ Sem\ 1/HDL/Laboratories/LE4/Verilog/FourBitComparator {C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE4/Verilog/FourBitComparator/FourBitComparator.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:07:53 on Oct 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE4/Verilog/FourBitComparator" C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE4/Verilog/FourBitComparator/FourBitComparator.v 
+# -- Compiling module FourBitComparator
+# 
+# Top level modules:
+# 	FourBitComparator
+# End time: 20:07:53 on Oct 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/joshr/OneDrive/Desktop/University\ of\ San\ Carlos/USC\ Year\ 3\ -\ Sem\ 1/HDL/Laboratories/LE4/Verilog/FourBitComparator {C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE4/Verilog/FourBitComparator/tb_FourBitComparator.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:07:53 on Oct 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE4/Verilog/FourBitComparator" C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE4/Verilog/FourBitComparator/tb_FourBitComparator.v 
+# -- Compiling module tb_FourBitComparator
+# 
+# Top level modules:
+# 	tb_FourBitComparator
+# End time: 20:07:53 on Oct 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  tb_FourBitComparator
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" tb_FourBitComparator 
+# Start time: 20:07:53 on Oct 02,2023
+# Loading work.tb_FourBitComparator
+# Loading work.FourBitComparator
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Test Bench | tb_FourBitComparator...
+# A < B
+# Time =  0 ns	 A =  4 | [0100]	 B = 10 [1010]	 R = 001
+# Time = 10 ns	 A = 12 | [1100]	 B = 15 [1111]	 R = 001
+# Time = 20 ns	 A =  2 | [0010]	 B = 13 [1101]	 R = 001
+# Time = 30 ns	 A =  3 | [0011]	 B = 13 [1101]	 R = 001
+# A = B
+# Time = 40 ns	 A = 14 | [1110]	 B = 14 [1110]	 R = 010
+# Time = 50 ns	 A = 15 | [1111]	 B = 15 [1111]	 R = 010
+# Time = 60 ns	 A =  8 | [1000]	 B =  8 [1000]	 R = 010
+# Time = 70 ns	 A =  0 | [0000]	 B =  0 [0000]	 R = 010
+# A > B
+# Time = 80 ns	 A =  1 | [0001]	 B =  0 [0000]	 R = 100
+# Time = 90 ns	 A = 15 | [1111]	 B = 14 [1110]	 R = 100
+# Time = 100 ns	 A =  5 | [0101]	 B =  3 [0011]	 R = 100
+# Time = 110 ns	 A =  2 | [0010]	 B =  1 [0001]	 R = 100
+# ** Note: $stop    : C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE4/Verilog/FourBitComparator/tb_FourBitComparator.v(39)
+#    Time: 120 ns  Iteration: 0  Instance: /tb_FourBitComparator
+# Break in Module tb_FourBitComparator at C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE4/Verilog/FourBitComparator/tb_FourBitComparator.v line 39
+# End time: 20:18:58 on Oct 02,2023, Elapsed time: 0:11:05
+# Errors: 0, Warnings: 0

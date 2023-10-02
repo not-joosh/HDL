@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE4/Verilog/FourBitComparator/simulation/modelsim
+vFourBitComparator
+Z1 !s110 1696248473
+!i10b 1
+!s100 5Hfb?F=Hd?`6No8PML:6>2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I]MWW4EbP^gEajc`G7F1bc3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1696247820
+8C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE4/Verilog/FourBitComparator/FourBitComparator.v
+FC:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE4/Verilog/FourBitComparator/FourBitComparator.v
+!i122 0
+L0 8 16
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1696248473.000000
+!s107 C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE4/Verilog/FourBitComparator/FourBitComparator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE4/Verilog/FourBitComparator|C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE4/Verilog/FourBitComparator/FourBitComparator.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work {+incdir+C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE4/Verilog/FourBitComparator}
+Z8 tCvgOpt 0
+n@four@bit@comparator
+vtb_FourBitComparator
+R1
+!i10b 1
+!s100 49fj<cY31UcAm0kb_7:]z3
+R2
+IiJYfegm>ZnhZLoB9Mk7?_2
+R3
+R0
+w1696248384
+8C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE4/Verilog/FourBitComparator/tb_FourBitComparator.v
+FC:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE4/Verilog/FourBitComparator/tb_FourBitComparator.v
+!i122 1
+L0 9 36
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE4/Verilog/FourBitComparator/tb_FourBitComparator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE4/Verilog/FourBitComparator|C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE4/Verilog/FourBitComparator/tb_FourBitComparator.v|
+!i113 1
+R6
+R7
+R8
+ntb_@four@bit@comparator

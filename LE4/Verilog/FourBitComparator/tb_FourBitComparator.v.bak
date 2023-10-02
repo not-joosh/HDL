@@ -1,0 +1,8 @@
+/************************************
+*	FILE:					tb_FourBitComparator.v
+*	AUTHOR:				Josh Ratificar
+*	Class:				Gr.3 CpE 3101L Introduction to HDL
+*	Group/Schedule		Friday, 7:30 AM to 10:30 AM
+*	Description: 		tb_FourBitComparator.v module
+************************************/
+module FourBitComparator(
