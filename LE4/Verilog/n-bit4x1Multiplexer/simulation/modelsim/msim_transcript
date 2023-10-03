@@ -1,0 +1,60 @@
+# Reading pref.tcl
+# do n_bit4x1Multiplexer_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/joshr/OneDrive/Desktop/University\ of\ San\ Carlos/USC\ Year\ 3\ -\ Sem\ 1/HDL/Laboratories/LE4/Verilog/n-bit4x1Multiplexer {C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE4/Verilog/n-bit4x1Multiplexer/n_bit4x1Multiplexer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:49:00 on Oct 03,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE4/Verilog/n-bit4x1Multiplexer" C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE4/Verilog/n-bit4x1Multiplexer/n_bit4x1Multiplexer.v 
+# -- Compiling module n_bit4x1Multiplexer
+# 
+# Top level modules:
+# 	n_bit4x1Multiplexer
+# End time: 08:49:00 on Oct 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/joshr/OneDrive/Desktop/University\ of\ San\ Carlos/USC\ Year\ 3\ -\ Sem\ 1/HDL/Laboratories/LE4/Verilog/n-bit4x1Multiplexer {C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE4/Verilog/n-bit4x1Multiplexer/tb_8_bit4x1Multiplexer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:49:00 on Oct 03,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE4/Verilog/n-bit4x1Multiplexer" C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE4/Verilog/n-bit4x1Multiplexer/tb_8_bit4x1Multiplexer.v 
+# -- Compiling module tb_8_bit4x1Multiplexer
+# 
+# Top level modules:
+# 	tb_8_bit4x1Multiplexer
+# End time: 08:49:01 on Oct 03,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  tb_8_bit4x1Multiplexer
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" tb_8_bit4x1Multiplexer 
+# Start time: 08:49:01 on Oct 03,2023
+# Loading work.tb_8_bit4x1Multiplexer
+# Loading work.n_bit4x1Multiplexer
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Test Bench | tb_8_bit4x1Multiplexer...
+# Test case 1: Select A
+# Time =  0 ns	 |A = 170 [10101010]|	 |B = 102 [01100110]|	 |C = 221 [11011101]|	 |D =  17 [00010001]|	 |S = 0 [00]|	 |Y = 170 [10101010]|
+# Test case 2: Select B
+# Time = 10 ns	 |A = 170 [10101010]|	 |B = 102 [01100110]|	 |C = 221 [11011101]|	 |D =  17 [00010001]|	 |S = 1 [01]|	 |Y = 102 [01100110]|
+# Test case 3: Select C
+# Time = 20 ns	 |A = 170 [10101010]|	 |B = 102 [01100110]|	 |C = 221 [11011101]|	 |D =  17 [00010001]|	 |S = 2 [10]|	 |Y = 221 [11011101]|
+# Test case 4: Select D
+# Time = 30 ns	 |A = 170 [10101010]|	 |B = 102 [01100110]|	 |C = 221 [11011101]|	 |D =  17 [00010001]|	 |S = 3 [11]|	 |Y =  17 [00010001]|
+# ** Note: $stop    : C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE4/Verilog/n-bit4x1Multiplexer/tb_8_bit4x1Multiplexer.v(31)
+#    Time: 40 ps  Iteration: 0  Instance: /tb_8_bit4x1Multiplexer
+# Break in Module tb_8_bit4x1Multiplexer at C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE4/Verilog/n-bit4x1Multiplexer/tb_8_bit4x1Multiplexer.v line 31
+# End time: 09:07:57 on Oct 03,2023, Elapsed time: 0:18:56
+# Errors: 0, Warnings: 0
