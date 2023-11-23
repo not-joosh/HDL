@@ -1,0 +1,47 @@
+module Hex_to_7seg_Decoder (
+	input [3:0] Hex,
+	input DP,
+	output reg [7:0] SSeg
+);
+always @(*)
+	begin
+		case ({DP, Hex})        
+			// DP = Off
+			5'b00000 : SSeg = 8'b11111111; // SSeg output = 0
+			5'b00001 : SSeg = 8'b10011111; // SSeg output = 1	
+			5'b00010 : SSeg = 8'b00100101; // SSeg output = 2
+			5'b00011 : SSeg = 8'b00001101; // SSeg output = 3
+			5'b00100 : SSeg = 8'b10011001; // SSeg output = 4
+			5'b00101 : SSeg = 8'b01001001; // SSeg output = 5
+			5'b00110 : SSeg = 8'b01000001; // SSeg output = 6
+			5'b00111 : SSeg = 8'b00011111; // SSeg output = 7
+			5'b01000 : SSeg = 8'b00000001; // SSeg output = 8
+			5'b01001 : SSeg = 8'b00001001; // SSeg output = 9
+			5'b01010 : SSeg = 8'b00010001; // SSeg output = A
+			5'b01011 : SSeg = 8'b11000001; // SSeg output = B
+			5'b01100 : SSeg = 8'b01100001; // SSeg output = C
+			5'b01101 : SSeg = 8'b10000101; // SSeg output = D
+			5'b01110 : SSeg = 8'b01100001; // SSeg output = E
+			5'b01111 : SSeg = 8'b01110001; // SSeg output = F
+			
+			
+			// DP = On
+			5'b10000 : SSeg = 8'b11111110; // SSeg output = 0
+			5'b10001 : SSeg = 8'b10011110; // SSeg output = 1	
+			5'b10010 : SSeg = 8'b00100100; // SSeg output = 2
+			5'b10011 : SSeg = 8'b00001100; // SSeg output = 3
+			5'b10100 : SSeg = 8'b10011000; // SSeg output = 4
+			5'b10101 : SSeg = 8'b01001000; // SSeg output = 5
+			5'b10110 : SSeg = 8'b01000000; // SSeg output = 6
+			5'b10111 : SSeg = 8'b00011110; // SSeg output = 7
+			5'b11000 : SSeg = 8'b00000000; // SSeg output = 8
+			5'b11001 : SSeg = 8'b00001000; // SSeg output = 9
+			5'b11010 : SSeg = 8'b00010000; // SSeg output = A
+			5'b11011 : SSeg = 8'b11000000; // SSeg output = B
+			5'b11100 : SSeg = 8'b01100000; // SSeg output = C
+			5'b11101 : SSeg = 8'b10000100; // SSeg output = D
+			5'b11110 : SSeg = 8'b01100000; // SSeg output = E
+			5'b11111 : SSeg = 8'b01110000; // SSeg output = F
+		endcase
+	end
+endmodule 

@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE5/Verilog/Hex_to_7seg_Decoder/simulation/modelsim
+vHex_to_7seg_Decoder
+!s110 1700742322
+!i10b 1
+!s100 >UFQdYa_IFX?[Vk[Y_aE?1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IjHhSh_Ud7TcKTiGKQ4I5Y2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1699609895
+8C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE5/Verilog/Hex_to_7seg_Decoder/Hex_to_7seg_Decoder.v
+FC:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE5/Verilog/Hex_to_7seg_Decoder/Hex_to_7seg_Decoder.v
+!i122 0
+L0 8 47
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1700742321.000000
+!s107 C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE5/Verilog/Hex_to_7seg_Decoder/Hex_to_7seg_Decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE5/Verilog/Hex_to_7seg_Decoder|C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE5/Verilog/Hex_to_7seg_Decoder/Hex_to_7seg_Decoder.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE5/Verilog/Hex_to_7seg_Decoder}
+Z6 tCvgOpt 0
+n@hex_to_7seg_@decoder
+vtb_Hex_to_7seg_Decoder
+!s110 1700742323
+!i10b 1
+!s100 OD@d^eJ1Vf37Bn?[m<2MS3
+R1
+IaTOceRAMzKPTdjL`Ph1JZ1
+R2
+R0
+w1699610866
+8C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE5/Verilog/Hex_to_7seg_Decoder/tb_Hex_to_7seg_Decoder.v
+FC:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE5/Verilog/Hex_to_7seg_Decoder/tb_Hex_to_7seg_Decoder.v
+!i122 1
+L0 8 53
+R3
+r1
+!s85 0
+31
+!s108 1700742323.000000
+!s107 C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE5/Verilog/Hex_to_7seg_Decoder/tb_Hex_to_7seg_Decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE5/Verilog/Hex_to_7seg_Decoder|C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE5/Verilog/Hex_to_7seg_Decoder/tb_Hex_to_7seg_Decoder.v|
+!i113 1
+R4
+R5
+R6
+ntb_@hex_to_7seg_@decoder
