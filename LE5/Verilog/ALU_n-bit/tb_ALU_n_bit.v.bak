@@ -1,0 +1,60 @@
+/************************************
+*	FILE:					tb_ALU_n_bit.v
+*	AUTHOR:				Mohan Francis, Josh Ratificar
+*	Class:				Gr.3 CpE 3101L Introduction to HDL
+*	Group/Schedule		Friday, 7:30 AM to 10:30 AM
+*	Description: 		Test Bench ALU_n_bit.v file
+************************************/ 
+module tb_ALU_n_bit();
+	reg  [3:0] Hex;
+	reg  DP;
+	wire [7:0] SSeg;
+	
+	Hex_to_7seg_Decoder UUT(
+		.Hex(Hex),
+		.DP(DP),
+		.SSeg(SSeg)
+	);
+	initial begin
+		$display("Test Bench | Hex_to_7seg_Decoder...");
+		$display("DP is OFF...");
+		DP = 1'b0; 		 Hex = 4'b0000;  	   #10;
+		DP = 1'b0;      Hex = 4'b0001;      #10;	
+		DP = 1'b0;      Hex = 4'b0010;      #10;
+		DP = 1'b0;      Hex = 4'b0011;      #10;
+		DP = 1'b0;      Hex = 4'b0100;      #10;
+		DP = 1'b0;      Hex = 4'b0101;      #10;
+		DP = 1'b0;      Hex = 4'b0110;      #10;
+		DP = 1'b0;      Hex = 4'b0111;      #10;
+		DP = 1'b0;      Hex = 4'b1000;      #10;
+		DP = 1'b0;      Hex = 4'b1001;      #10;
+		DP = 1'b0;      Hex = 4'b1010;      #10;
+		DP = 1'b0;      Hex = 4'b1011;      #10;
+		DP = 1'b0;      Hex = 4'b1100;      #10;
+		DP = 1'b0;      Hex = 4'b1101;      #10;
+		DP = 1'b0;      Hex = 4'b1110;      #10;
+		DP = 1'b0;      Hex = 4'b1111;      #10;
+
+      $display("DP is ON...");
+		DP = 1'b1; 		Hex = 4'b0000;  		#10;
+		DP = 1'b1;      Hex = 4'b0001;      #10;	
+		DP = 1'b1;      Hex = 4'b0010;      #10;
+		DP = 1'b1;      Hex = 4'b0011;      #10;
+		DP = 1'b1;      Hex = 4'b0100;      #10;
+		DP = 1'b1;      Hex = 4'b0101;      #10;
+		DP = 1'b1;      Hex = 4'b0110;      #10;
+		DP = 1'b1;      Hex = 4'b0111;      #10;
+		DP = 1'b1;      Hex = 4'b1000;      #10;
+		DP = 1'b1;      Hex = 4'b1001;      #10;
+		DP = 1'b1;      Hex = 4'b1010;      #10;
+		DP = 1'b1;      Hex = 4'b1011;      #10;
+		DP = 1'b1;      Hex = 4'b1100;      #10;
+		DP = 1'b1;      Hex = 4'b1101;      #10;
+		DP = 1'b1;      Hex = 4'b1110;      #10;
+		DP = 1'b1;      Hex = 4'b1111;      #10;
+		$stop;
+	end
+	initial begin
+		$monitor("Time = %2d ns | DP = %b | HEX = %b | SSeg = %b", $time, DP, Hex, SSeg);
+	end
+endmodule 
