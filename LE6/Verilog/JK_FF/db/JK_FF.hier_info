@@ -1,0 +1,13 @@
+|JK_FF
+J => Mux0.IN4
+J => Mux1.IN4
+J => Mux2.IN4
+K => Mux0.IN5
+K => Mux1.IN5
+K => Mux2.IN5
+Reset => ~NO_FANOUT~
+Clk => ~NO_FANOUT~
+Q << Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q_bar << Q_bar$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

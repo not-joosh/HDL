@@ -1,0 +1,61 @@
+# Reading pref.tcl
+# do JK_FF_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/joshr/OneDrive/Desktop/University\ of\ San\ Carlos/USC\ Year\ 3\ -\ Sem\ 1/HDL/Laboratories/LE6/Verilog/JK_FF {C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE6/Verilog/JK_FF/JK_FF.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:50:28 on Dec 07,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE6/Verilog/JK_FF" C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE6/Verilog/JK_FF/JK_FF.v 
+# -- Compiling module JK_FF
+# 
+# Top level modules:
+# 	JK_FF
+# End time: 23:50:28 on Dec 07,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/joshr/OneDrive/Desktop/University\ of\ San\ Carlos/USC\ Year\ 3\ -\ Sem\ 1/HDL/Laboratories/LE6/Verilog/JK_FF {C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE6/Verilog/JK_FF/tb_JK_FF.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:50:28 on Dec 07,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE6/Verilog/JK_FF" C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE6/Verilog/JK_FF/tb_JK_FF.v 
+# -- Compiling module tb_JK_FF
+# 
+# Top level modules:
+# 	tb_JK_FF
+# End time: 23:50:28 on Dec 07,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  tb_JK_FF
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" tb_JK_FF 
+# Start time: 23:50:28 on Dec 07,2023
+# Loading work.tb_JK_FF
+# Loading work.JK_FF
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Test Bench | JK FLIP FLOP...
+# Time =  0 ns | J = 0 | K = 0 | CLK = 0 | RESET = 1 | Q = x | Q_bar = x
+# Time =  5 ns | J = 0 | K = 1 | CLK = 1 | RESET = 1 | Q = x | Q_bar = x
+# Time = 10 ns | J = 1 | K = 0 | CLK = 0 | RESET = 0 | Q = 1 | Q_bar = 0
+# Time = 15 ns | J = 1 | K = 1 | CLK = 1 | RESET = 0 | Q = 1 | Q_bar = 0
+# Time = 20 ns | J = 0 | K = 0 | CLK = 0 | RESET = 0 | Q = 1 | Q_bar = 0
+# Time = 25 ns | J = 0 | K = 1 | CLK = 1 | RESET = 0 | Q = 1 | Q_bar = 0
+# Time = 30 ns | J = 1 | K = 0 | CLK = 0 | RESET = 0 | Q = 1 | Q_bar = 0
+# Time = 35 ns | J = 1 | K = 1 | CLK = 1 | RESET = 0 | Q = 1 | Q_bar = 0
+# Time = 40 ns | J = 1 | K = 1 | CLK = 0 | RESET = 0 | Q = 0 | Q_bar = 1
+# ** Note: $stop    : C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE6/Verilog/JK_FF/tb_JK_FF.v(40)
+#    Time: 45 ns  Iteration: 0  Instance: /tb_JK_FF
+# Break in Module tb_JK_FF at C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE6/Verilog/JK_FF/tb_JK_FF.v line 40
+# End time: 23:52:20 on Dec 07,2023, Elapsed time: 0:01:52
+# Errors: 0, Warnings: 0
