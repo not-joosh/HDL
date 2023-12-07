@@ -1,0 +1,18 @@
+/************************************
+*	FILE:					Counter_4bit.v 
+*	AUTHOR:				Mohan Francis, Josh Ratificar
+*	Class:				Gr.3 CpE 3101L Introduction to HDL 
+*	Group/Schedule		Friday, 7:30 AM to 10:30 AM 
+*	Description: 		Counter_4bit.v file 
+************************************/
+
+//Design a 4-bit binary up/down counter using behavioral description with a function table and entity diagram
+//shown below.
+
+module Counter_4bit(
+	input Clk, nReset, Load, Count_en, Up,
+	input [3:0] Count_in,
+	output reg [3:0] Count_out
+);
+
+endmodule 

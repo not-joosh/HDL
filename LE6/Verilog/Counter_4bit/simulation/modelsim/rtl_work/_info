@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE6/Verilog/Counter_4bit/simulation/modelsim
+vCounter_4bit
+!s110 1701964792
+!i10b 1
+!s100 gacb8dCLo==J1lYKMk1dP2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IX`]1HKGAYC`?Hk3ALNgko3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1701959691
+8C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE6/Verilog/Counter_4bit/Counter_4bit.v
+FC:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE6/Verilog/Counter_4bit/Counter_4bit.v
+!i122 0
+L0 16 20
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1701964792.000000
+!s107 C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE6/Verilog/Counter_4bit/Counter_4bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE6/Verilog/Counter_4bit|C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE6/Verilog/Counter_4bit/Counter_4bit.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE6/Verilog/Counter_4bit}
+Z7 tCvgOpt 0
+n@counter_4bit
+vtb_Counter_4bit
+!s110 1701964793
+!i10b 1
+!s100 aNDT:X[2VekL>;4GhX`<g3
+R1
+I<:UkQ2KCkJTJJR;gUzQk<0
+R2
+R0
+w1701963314
+8C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE6/Verilog/Counter_4bit/tb_Counter_4bit.v
+FC:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE6/Verilog/Counter_4bit/tb_Counter_4bit.v
+!i122 1
+L0 9 73
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE6/Verilog/Counter_4bit/tb_Counter_4bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE6/Verilog/Counter_4bit|C:/Users/joshr/OneDrive/Desktop/University of San Carlos/USC Year 3 - Sem 1/HDL/Laboratories/LE6/Verilog/Counter_4bit/tb_Counter_4bit.v|
+!i113 1
+R5
+R6
+R7
+ntb_@counter_4bit

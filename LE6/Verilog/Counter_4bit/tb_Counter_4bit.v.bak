@@ -1,0 +1,4 @@
+module tb_Counter_4bit();
+
+
+endmodule 
